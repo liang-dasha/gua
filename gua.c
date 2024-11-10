@@ -237,7 +237,6 @@ int main()
     char choice; // 用于询问用户是否继续
 
     do{
-    printf("开始投掷硬币，请按下空格键开始。\n");
     f_coin(n_yao); // 开始投掷硬币
     printf("\n硬币投掷完成,开始取爻成卦。\n\n");
 
