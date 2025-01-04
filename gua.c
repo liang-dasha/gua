@@ -205,7 +205,7 @@ void f_yao_use(int *p_a_yao) // 计算动爻数并给出用爻
         printf("这里给出乾坤的用爻：\n乾·用九：见群龙无首，吉。\n坤·用六：利永贞。\n");
         break;
     default://这是四动爻的情况，因为要调用另一个函数，所以我把它放在这里。
-        f_four_dongyao(a_yingyang,a_dongyao_mark);
+        f_four_dongyao(a_yingyang,a_dongyao_mark);//当动爻数为4时，用阳静爻爻辞，如果两动爻同阴同阳，用下静爻爻辞。
         break;
     }
     
